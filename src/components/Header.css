@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  img {
+    width: 106px;
+    height: 54px;
+    cursor: pointer;
+  }
+
+  button {
+    color: rgba(0, 0, 0, 1);
+    font-family: Poppins;
+    font-weight: 400;
+    margin-left: 243px;
+    font-size: 24px;
+  }
+}
+
+.container {
+  max-width: 1600px;
+  padding: 50px 50px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header-section {
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 18px;
+    margin-left: 253px;
+    gap: 70px;
+  }
+
+  a {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(38, 50, 56, 1);
+  }
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-img {
+  width: 661;
+  height: 661;
+  top: 175px;
+  left: 816px;
+}
+
+.hero-title {
+  h2 {
+    width: 386;
+    height: 240;
+    top: 226px;
+    left: 129px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 64px;
+    color: rgba(0, 0, 0, 1);
+  }
+
+  p {
+    width: 526;
+    height: 108;
+    top: 506px;
+    left: 127px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(143, 149, 165, 1);
+  }
+}
+
+/* LanguageLandingPage.css
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-container {
+  min-height: 100vh;
+  background-color: white;
+  color: #1f2937;
+  padding: 1.5rem;
+}
+
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-gray {
+  color: #9ca3af;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.nav-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #6b7280;
+}
+
+.talk-button {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  background: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.talk-button:hover {
+  background-color: #f9fafb;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .main-section {
+    flex-direction: row;
+  }
+}
+
+.text-content {
+  max-width: 32rem;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.get-started {
+  background-color: #111827;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.image-section {
+  width: 100%;
+  max-width: 24rem;
+  margin-bottom: 2.5rem;
+}
+
+.image-section img {
+  width: 100%;
+} */
