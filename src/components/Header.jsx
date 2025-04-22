@@ -26,7 +26,10 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <button className="header-bt">Let’s Talk</button>
+        <button className="header-bt">
+          {" "}
+          <a href="#">Let’s Talk</a>{" "}
+        </button>
       </div>
       {/* HERO */}
 
@@ -40,7 +43,10 @@ export default function Header() {
             With our teachers who write a program for each student, you will be
             able to make your first sketch after the first lesson.
           </p>
-          <button>Get started</button>
+          <button>
+            {" "}
+            <a href="#">Get started</a>{" "}
+          </button>
         </div>
         <img className="hero-img" src="../public/hero-bg.svg" alt="" />
       </div>

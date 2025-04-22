@@ -6,11 +6,23 @@ body {
 
 .header {
   button {
-    color: rgba(0, 0, 0, 1);
-    font-family: Poppins;
-    font-weight: 400;
     margin-left: 243px;
-    font-size: 24px;
+    padding: 17px 57px;
+    width: 220;
+    height: 70;
+    border-radius: 5px;
+    border-width: 2px;
+    cursor: pointer;
+    border: 2px solid rgba(38, 50, 56, 1);
+    background-color: white;
+
+    a {
+      color: rgba(0, 0, 0, 1);
+      font-family: Poppins;
+      font-weight: 400;
+      text-decoration: none;
+      font-size: 24px;
+    }
   }
 }
 
@@ -28,14 +40,19 @@ body {
     list-style: none;
     margin-top: 18px;
     margin-left: 253px;
-    gap: 70px;
+    gap: 40px;
   }
 
   a {
     font-family: Poppins;
+    text-decoration: none;
     font-weight: 500;
     font-size: 20px;
     color: rgba(38, 50, 56, 1);
+
+    &:hover {
+      color: rgb(237, 88, 7);
+    }
   }
 }
 
@@ -73,5 +90,25 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: rgba(143, 149, 165, 1);
+  }
+
+  button {
+    width: 438px;
+    height: 118px;
+    margin-right: -100px;
+    margin-left: -0px;
+    top: 675px;
+    left: 129px;
+    border-radius: 15px;
+    background-color: rgba(38, 50, 56, 1);
+
+    a {
+      width: 203px;
+      height: 54px;
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 36px;
+      color: rgba(255, 255, 255, 1);
+    }
   }
 }
