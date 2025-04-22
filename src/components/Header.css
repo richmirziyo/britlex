@@ -43,19 +43,22 @@ body {
   display: flex;
 }
 
+.hero-lompa {
+  position: relative;
+  top: -150px; /* pastga siljiydi */
+  left: 558px; /* o'ngga siljiydi */
+}
+
 .hero-img {
-  width: 661;
-  height: 661;
-  top: 175px;
-  left: 816px;
+  width: 661px;
+  height: 661px;
+  margin-left: 163px;
 }
 
 .hero-title {
   h2 {
-    width: 386;
-    height: 240;
-    top: 226px;
-    left: 129px;
+    width: 386px;
+    height: 240px;
     font-family: Poppins;
     font-weight: 600;
     font-size: 64px;
@@ -63,15 +66,12 @@ body {
   }
 
   p {
-    width: 526;
-    height: 108;
-    top: 506px;
-    left: 127px;
+    width: 526px;
+    height: 108px;
+    margin-top: -40px;
     font-family: Poppins;
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
     color: rgba(143, 149, 165, 1);
   }
 }

@@ -32,14 +32,17 @@ export default function Header() {
 
       <div className="hero container">
         <div className="hero-title">
-          <h2>Learn Any Foreign Language</h2>
+          <h2>
+            Learn <br /> Any Foreign Language
+          </h2>
+          <img className="hero-lompa" src="../public/lompa.jpg" alt="" />
           <p>
             With our teachers who write a program for each student, you will be
             able to make your first sketch after the first lesson.
           </p>
           <button>Get started</button>
         </div>
-        <img className="hero-img" src="../public/hero-img.png" alt="" />
+        <img className="hero-img" src="../public/hero-bg.svg" alt="" />
       </div>
     </header>
   );
