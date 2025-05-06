@@ -38,7 +38,7 @@ export default function Header() {
           <h2>
             Learn <br /> Any Foreign Language
           </h2>
-          <img className="hero-lompa" src="../public/lompa.jpg" alt="" />
+          <img className="hero-lompa" src="../../public/lompa.jpg" alt="" />
           <p>
             With our teachers who write a program for each student, you will be
             able to make your first sketch after the first lesson.
