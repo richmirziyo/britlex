@@ -38,7 +38,7 @@ export default function Header() {
           <h2>
             Learn <br /> Any Foreign Language
           </h2>
-          <img className="hero-lompa" src="../assets/lompa.jpg" alt="" />
+          <img className="hero-lompa" src="../pablic/assets/lompa.jpg" alt="" />
           <p>
             With our teachers who write a program for each student, you will be
             able to make your first sketch after the first lesson.
@@ -48,7 +48,7 @@ export default function Header() {
             <a href="#">Get started</a>{" "}
           </button>
         </div>
-        <img className="hero-img" src="../assets/hero-bg.svg" alt="" />
+        <img className="hero-img" src="../pablic/assets/hero-bg.svg" alt="" />
       </div>
     </header>
   );
